@@ -1,8 +1,8 @@
-import Img1 from '../../../../../../assets/Reviews/reviews-1.jpg'
-import Img2 from '../../../../../../assets/Reviews/reviews-2.jpg'
-import Img3 from '../../../../../../assets/Reviews/reviews-3.jpg'
-import Img4 from '../../../../../../assets/Reviews/reviews-4.jpg'
-import Img5 from '../../../../../../assets/Reviews/reviews-5.jpg'
+import Img1 from '../../../../../../assets/Reviews/reviews-1.webp'
+import Img2 from '../../../../../../assets/Reviews/reviews-2.webp'
+import Img3 from '../../../../../../assets/Reviews/reviews-3.webp'
+import Img4 from '../../../../../../assets/Reviews/reviews-4.webp'
+import Img5 from '../../../../../../assets/Reviews/reviews-5.webp'
 
 
 export const Data = [
