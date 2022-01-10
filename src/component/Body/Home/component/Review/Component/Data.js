@@ -1,8 +1,8 @@
-import Img1 from '../../../../../../assets/Reviews/reviews-1.webp'
-import Img2 from '../../../../../../assets/Reviews/reviews-2.webp'
-import Img3 from '../../../../../../assets/Reviews/reviews-3.webp'
-import Img4 from '../../../../../../assets/Reviews/reviews-4.webp'
-import Img5 from '../../../../../../assets/Reviews/reviews-5.webp'
+import Img1 from '../../../../../../assets/Reviews/reviews-1.webp';
+import Img2 from '../../../../../../assets/Reviews/reviews-2.webp';
+import Img3 from '../../../../../../assets/Reviews/reviews-3.webp';
+import Img4 from '../../../../../../assets/Reviews/reviews-4.webp';
+import Img5 from '../../../../../../assets/Reviews/reviews-5.webp';
 
 
 export const Data = [
@@ -48,7 +48,7 @@ export const Data = [
         title: 'Excellent Work',
         star:"5",
         heading:"Uncle Fixer's service has had a significant impact on me. They are most reliable andcooperative and their worker also very professional and trustable.",
-        user:"Syed Haider Raza",
+        user:"Muhammad Awais",
         address:"Mall Road, Lahore"
     },
 
