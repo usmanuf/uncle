@@ -1,0 +1,80 @@
+.WhyChoosePara{
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    margin: 22px 01px!important;
+}
+.icon{
+    margin: 0 5px;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+.WhyChoose{
+    background: var(--bg-gray);
+    border-bottom:1px solid var(--border);
+    border-top:1px solid var(--border);
+}
+.ChooseText{
+    margin: auto;
+    width: 80%;
+}
+.ChooseHeading{
+    display: flex;
+    align-items: center;
+
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    color: var(--theme-color);
+    margin: 2px 01px!important;
+}
+.ChoosePara{
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 43px;
+
+}
+.WhyChooseServices{
+    padding: 32px 2px;
+
+}
+.whyChooseText{
+    display: flex;
+align-items: center;
+    margin: 22px 0;
+    cursor: pointer;
+}
+.imgWhyChoose{
+    width: 40px;
+    margin: 0 12px;
+
+}
+.whyChoosePara{
+    font-weight: 500;
+    font-size: 15px;
+
+
+}
+
+.whyChooseText:hover .imgWhyChoose{
+    transform: rotateY(180deg);
+    transition: .3s;
+}
+.whyChooseText:hover .whyChoosePara {
+    color:var(--theme-color)
+}
+
+
+@media screen and (max-width: 565px) {
+    .whyChoosePara{
+        font-weight: 500;
+        font-size: 15px;
+
+    }
+    .ChooseText{
+        margin: auto;
+        width: 98%;
+    }
+}

@@ -1,0 +1,23 @@
+.FeatureBenefits{
+    background: #efeded;
+}
+.faqText{
+    display: flex;
+
+}
+.benefitsFaqs{
+margin: 33px 2px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.faqsIcon{
+    font-size: 28px;
+    color: #1faf05;
+margin: 0 13px;
+}
+.faqPara{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 13px;
+}

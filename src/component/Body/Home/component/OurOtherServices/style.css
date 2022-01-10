@@ -1,0 +1,71 @@
+.other-services{
+    padding: 32px 2px;
+    background: var(--bg-dark);
+}
+
+.othersServices{
+    max-width: 80vw;
+    padding: 33px 12px;
+    margin: auto;
+
+}
+.bastServicesDiv{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 3px #ccc;
+    justify-content: center;
+    align-items: center;
+
+
+}.bastServicesDiv:hover{
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
+.card-otherServices{
+    display: flex;
+    background: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 8px;
+}
+.cardImg{
+    width: 120px;
+    padding: 12px;
+}
+.cardHeading{
+    text-align: center;
+    font-size: 15px!important;
+    font-weight: 600;
+    margin: auto;
+    padding: 15px;
+}
+.OurServiceBtn{
+display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 22px!important;
+}
+.btnHome{
+    background-color: #1faf05;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    padding: 5px 32px;
+    border-radius: 2px;
+    margin: 0 6px;
+}
+
+.bookNow{
+    background: #1faf05;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    margin-bottom: 18px;
+    padding: 4px 12px;
+}
+

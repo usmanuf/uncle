@@ -1,0 +1,14 @@
+.videos{
+    /*background: red!important;*/
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+}
+.video-main{
+
+border: 3px dashed var(--theme-color);
+    border-radius: 4px;
+
+
+}

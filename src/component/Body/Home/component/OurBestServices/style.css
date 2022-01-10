@@ -1,0 +1,82 @@
+.Best-services{
+padding: 22px;
+    background: var(--bg-gray);
+}
+.text-best-services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading-Para{
+    text-align: center;
+}
+.serviceCarousel{
+    padding: 12px;
+}
+.Carousel-bestServices{
+    margin: 12px 0;
+}
+.carousel-best-services{
+    max-width: 85vw;
+    padding: 8px 2px;
+    margin: auto;
+}
+.test-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding: 8px 0px;
+
+}
+.servicesCaro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.test-div:hover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding: 8px 0;
+     -moz-box-shadow: 0 0 10px #ccc;
+     -webkit-box-shadow: 0 0 10px #ccc;
+     box-shadow: 0 0 10px #ccc;
+    border-radius: 5px;
+    transition: .2s;
+
+}
+
+.card-bestServices{
+    max-width: 90%!important;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    margin:auto;
+}
+.card-heading{
+    text-align: center;
+    font-size: 15px!important;
+    margin: auto;
+    padding: 15px;
+}
+.card-img{
+    width: 120px!important;
+    padding: 15px;
+}
+.slick-dots li button:before{
+    font-size: 14px;
+}
+.slick-dots li.slick-active button:before {
+    color:#1faf05!important;
+    font-size: 10px;
+}
+

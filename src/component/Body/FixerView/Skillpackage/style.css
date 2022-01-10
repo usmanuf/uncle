@@ -1,0 +1,402 @@
+
+/*.bg-banner{*/
+/*    background: linear-gradient(90deg, #5ba505 0%, #9fe34b 100%)*/
+/*}*/
+
+.whatsapp{
+font-weight: 600;
+    color:#333;
+
+    width: 100px!important;
+}
+.whatsapp a{
+    padding: 8px 0px;
+    background-color: #5ba505!important;
+    color: white;
+    width: 200px!important;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.dropdown ul li {
+    padding: 6px 3px;
+    border: 1px solid;
+    border-color: #999999;
+    border-radius: 3px;
+    margin: 2px;
+}
+
+.whatsapp a:hover{
+    color: White;
+    background: #4f8f05 !important;
+}
+.bg-banner {
+    box-shadow: 0 0 1px 1px #1faf05, 0 0 3px 3px #1faf05;
+    /*background: linear-gradient(45deg, #5ba505, #33884488),*/
+    /*linear-gradient(90deg, #346203, #33884488);*/
+    margin-top: 0;
+    margin-bottom: 0;
+
+
+    background: #1faf05;
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+
+
+.img-banner{
+    height: 500px!important;
+
+}
+.img-banner2{
+    display: none;
+}
+@media screen and (min-width: 1025px){
+    .img-banner{
+        height: auto!important;
+        width: 700px !important;
+    }
+}
+@media screen and (max-width: 1025px) {
+    .img-banner {
+        height: auto !important;
+        width: 100% !important;
+    }
+}
+    @media screen and (max-width: 565px){
+        .img-banner{
+            display: none!important;
+        }
+        .img-banner2{
+            display: block!important;
+            height: auto!important;
+            width: 100%!important;
+
+        }
+    }
+
+.bg-2{
+    background: url("https://images.unsplash.com/photo-1544144433-d50aff500b91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+}
+
+.height-img{
+    height: 300px;
+}
+
+.hide {
+    display: none;
+    transition: 2s;
+    margin-top: 6px;
+}
+.myDIV:focus + .hide {
+    display: block;
+    color: #5ba505;
+    font-size: 12px;
+}
+
+.input-errors{
+    font-size: 12px;
+    color:red;
+
+}
+
+
+.img>img{
+    width: 300px;
+}
+
+
+.gradient {
+    background: linear-gradient(90deg, #5ba505 0%, #2d8a0f 100%);
+}
+.theme{
+    background:#1faf05 ;
+}
+.themes{
+    background: #f1f5f0;
+}
+.text-theme{
+    color: #1faf05;
+}
+.bannerFondo{
+    height: 400px;
+}
+.font-icon{
+    font-size: 63px!important;
+}
+
+.some{
+    border-bottom-left-radius: 62px!important;
+    border-top-right-radius: 62px!important;
+}
+.somes{
+    border-bottom-left-radius: 62px!important;
+
+}
+
+button:disabled,
+button[disabled]{
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+}
+
+
+/*some animated*/
+.somw{
+    z-index: 999;
+}
+.context {
+    width: 100%;
+   position: relative;
+
+
+}
+@media screen and (max-width: 768px) {
+    .area{
+        display: none;
+    }
+}
+
+.area{
+    background: transparent;
+    background: -webkit-linear-gradient(to left, #5ba505, red);
+    width: 100%;
+}
+
+.circles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+
+    overflow: hidden;
+}
+
+.circles li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+background: rgba(91,165,5,0.4);
+    /*background: rgba(255, 255, 255, 0.3);*/
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+
+}
+
+.circles li:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+
+.circles li:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.circles li:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+
+.circles li:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(6){
+    background: rgba(255, 255, 255, 0.5);
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+
+.circles li:nth-child(7){
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+
+.circles li:nth-child(8){
+    background: rgba(255, 255, 255, 0.5);
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.circles li:nth-child(9){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+
+.circles li:nth-child(10){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .area{
+        display: none;
+    }
+}
+/*howowoow*/
+.some-pakage{
+    position: relative;
+}
+.sectiondiv{
+    height:100%;
+    width:100%;
+    position:absolute;
+    background:transparent;
+}
+.leaf{
+    position:absolute ;
+    width:100%;
+    height:100%;
+    top:120px;
+    left:0;
+}
+.leaf div{
+    position:absolute ;
+    display:block ;
+}
+.leaf div:nth-child(1){
+    left:20%;
+    animation:fall 15s linear infinite ;
+    animation-delay:-2s;
+
+}
+.leaf div:nth-child(2){
+    left:70%;
+    animation:fall 15s linear infinite ;
+    animation-delay:-4s;
+}
+.leaf div:nth-child(3){
+    left:10%;
+    animation:fall 20s linear infinite ;
+    animation-delay:-7s;
+
+}
+.leaf div:nth-child(4){
+    left:50%;
+    animation:fall 18s linear infinite ;
+    animation-delay:-5s;
+}
+.leaf div:nth-child(5){
+    left:85%;
+    animation:fall 14s linear infinite ;
+    animation-delay:-5s;
+}
+.leaf div:nth-child(6){
+    left:15%;
+    animation:fall 16s linear infinite ;
+    animation-delay:-10s;
+}
+.leaf div:nth-child(7){
+    left:90%;
+    animation:fall 15s linear infinite ;
+    animation-delay:-4s;
+}
+
+@keyframes fall{
+    0%{
+        opacity:1;
+        top:-10%;
+        transform:translateX(20px) rotate(0deg);
+    }
+    20%{
+        opacity:0.8;
+        transform:translateX(-20px) rotate(45deg);
+    }
+    40%{
+
+        transform:translateX(-20px) rotate(90deg);
+    }
+    60%{
+
+        transform:translateX(-20px) rotate(135deg);
+    }
+    80%{
+
+        transform:translateX(-20px) rotate(180deg);
+    }
+    100%{
+
+        top:110%;
+        transform:translateX(-20px) rotate(225deg);
+    }
+}
+
+.leaf1{
+    transform: rotateX(180deg);
+}
+
+
+
+

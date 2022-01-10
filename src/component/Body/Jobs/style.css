@@ -1,0 +1,37 @@
+.bgJobs{
+    background: var(--bg-gray);
+}
+.contentJob{
+    display: flex;
+flex-direction: column;
+    color: #6e726e;
+    height: 110px;
+    overflow: hidden;
+}
+.linkServices:hover{
+    color: var(--theme-color);
+
+}
+
+
+/*applyform*/
+.selectOption{
+    background-color: #f5f3f3 !important;
+    padding: 10px 12px!important;
+    color: black;
+}
+.formApply{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.optionJob{
+    background: red;
+    padding: 13px!important;
+}
+/*jobdetails*/
+.jobDetails{
+   padding-top: 89px;
+    background: var(--bg-gray);
+    padding-bottom: 33px;
+}

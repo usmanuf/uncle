@@ -1,0 +1,127 @@
+.Review{
+    background-color: #fff;
+
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("https://i.imgur.com/BWo9nt9.png");
+    /*background-image: url('https://i.imgur.com/BWo9nt9.png');*/
+    background-size: contain;
+    background-position: center;
+    height: 700px;
+    grid-template-columns: 200px 1fr;
+    grid-gap: 30px;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.Slider-Review{
+    padding: 0 33px;
+    margin:22px 12px;
+
+}
+
+.Review-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.review-style{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+margin: auto;
+width: 80%;
+
+}
+.checked {
+    color: orange;
+}
+.review-style img{
+    width: 100px;
+    border-radius: 50%;
+    margin: 12px 2px;
+}
+.card-heading{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    margin: auto;
+}
+.card-headings{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    margin: auto;
+}
+.Review-para{
+    text-align: center;
+}
+.review-data{
+    color: #999999;
+}
+
+
+
+.slick-dots li button:before{
+    font-size: 14px;
+}
+.slick-dots li.slick-active button:before {
+    color:#1faf05;
+    font-size: 14px;
+
+}
+
+
+
+
+/*Review*/
+
+.rating {
+    border: none;
+    float: left;
+}
+
+.rating > input { display: none; }
+.rating > label:before {
+    margin: 5px;
+    font-size: 1.25em;
+    font-family: FontAwesome;
+    display: inline-block;
+    content: "\f005";
+}
+
+.rating > .half:before {
+    content: "\f089";
+    position: absolute;
+}
+
+.rating > label {
+    color: #ddd;
+    float: right;
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  }
+@media screen and (max-width: 565px) {
+    .Review{
+        background-color: #fff;
+
+        background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("https://i.imgur.com/BWo9nt9.png");
+        /*background-image: url('https://i.imgur.com/BWo9nt9.png');*/
+        background-size: contain;
+        background-position: center;
+        height: 860px;
+        grid-template-columns: 200px 1fr;
+        grid-gap: 30px;
+        background-attachment: fixed;
+        overflow: hidden;
+    }
+}

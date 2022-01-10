@@ -1,0 +1,18 @@
+.table-style{
+    width: 70%;
+}
+.table-style> tr{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.table-style> tr>td{
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.requirment{
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: capitalize;
+}

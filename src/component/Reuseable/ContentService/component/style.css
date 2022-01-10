@@ -1,0 +1,92 @@
+.dangeriousText img{
+    float: right;
+    border: 3px solid #1faf05;
+    width: 300px;
+    margin: 12px;
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    transition: all 2s ease;
+
+}
+.dangeriousText img:hover{
+    float: right;
+    border: 3px solid #1faf05;
+    width: 310px;
+    margin: 12px;
+    position: relative;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+
+
+}
+.dangeriousText b,strong{
+font-weight: 600!important;
+    font-size: 15px;
+    color: #292828;
+}
+.dangeriousText> h2 > strong{
+    font-size: 20px!important;
+    font-weight: 500;
+}
+.deneriouText{
+    position: absolute;
+    z-index: 33333;
+    top: 3px;
+    left: 50px;
+}
+.boxServices{
+    padding: 8px;
+
+}
+.linksButton-book
+{
+    background-color: #1faf05;
+    padding: 4px 26px;
+    text-transform: capitalize;
+     color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.2s;
+
+}
+.linksButton-whatsapp
+{
+    background-color: #1faf05;
+    padding: 4px 26px;
+    text-transform: capitalize;
+    color: white;
+    margin-left: 8px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+.linksButton-book:hover
+{
+    background-color: #1b7c03;
+    padding: 4px 26px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.2s;
+
+}
+.linksButton-whatsapp:hover
+{
+    background-color: #1b7c03;
+    padding: 4px 26px;
+    text-transform: capitalize;
+    color: white;
+    margin-left: 8px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+.linkbtn
+{
+    color: white;
+}

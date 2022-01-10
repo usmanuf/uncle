@@ -1,0 +1,22 @@
+.tabs{
+    background: var(--bg-gray);
+    color: red!important;
+}
+ .PrivateTabIndicator-colorSecondary-6 {
+    background: var(--theme-color)!important;
+ }
+.MuiTab-wrapper{
+    color: var(--theme-color) !important;
+}
+.TabsText{
+    height: 200px;
+    overflow:scroll;
+    padding-bottom: 12px;
+}
+.outTextpanel{
+    color: #515050;
+    font-size: 12px!important;
+}
+.bold{
+color: var(--theme-color);
+}

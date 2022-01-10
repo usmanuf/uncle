@@ -1,0 +1,44 @@
+
+
+.Requirements{
+
+    background-color: #ececec;
+
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: auto;
+
+
+}
+.imglogoFeature{
+    width: 25px;
+}
+.bgFreature{
+    /*background-color: #e8e8ef;*/
+}
+.faqText{
+    display: flex;
+
+}
+.benefitsFaqs{
+margin: 33px 2px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.faqsIcon{
+    font-size: 28px;
+    color: #1faf05;
+margin: 10px 13px;
+}
+.NoteTExt{
+    font-weight: 600;
+    font-size: 22px;
+
+    margin: 6px 13px;
+}
+.faqPara{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 13px;
+}

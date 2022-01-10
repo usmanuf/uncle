@@ -1,0 +1,180 @@
+.button{
+    /* margin-top: 2rem; */
+    background-color: #079e07 !important;
+    color: white !important;
+    
+  }
+  .button1{
+    width: 100%;
+  }
+  .social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid rgb(218, 213, 213) ;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  .socialTitle{
+    font-weight: bold;
+    width: 90%;
+    display: flex;
+    border-bottom: 0.2px solid rgb(218, 213, 213);
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .socialplug{
+    margin-bottom: 10px;
+  }
+  .iconView{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 2px;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+  .fa-android {
+    background: #a4c639;
+    color: white;
+  }
+  .fa-reddit {
+    background: #ff5700;
+    color: white;
+  }
+  
+  .fa-rss {
+    background: #ff6600;
+    color: white;
+  }
+  .fa-vimeo {
+    background: #45bbff;
+    color: white;
+  }
+  
+  .popular{
+    display: flex;
+    flex-direction: column;
+    height: 25rem;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-top: 3px solid rgb(218, 213, 213) ;
+    border-bottom: 3px solid rgb(218, 213, 213) ;
+    border-left: 1px solid rgb(218, 213, 213) ;
+    border-right: 1px solid rgb(218, 213, 213) ;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  .popularTitle{
+    font-weight: bold;
+    width: 90%;
+    display: flex;
+    border-bottom: 0.2px solid rgb(218, 213, 213);
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .popularPlug{
+    margin-bottom: 10px;
+  }
+  .item{
+    display: flex;
+    flex-direction: row;
+  }
+  .scroll{
+    overflow: scroll;
+    padding-right: 5px;
+  }
+  .imgView{
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .img{
+    border-radius: 4px;
+  }
+  .description{
+    padding-top: 10px;
+    padding-left: 15px;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .subcribe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-top: 3px solid rgb(218, 213, 213) ;
+    border-bottom: 3px solid rgb(218, 213, 213) ;
+    border-left: 1px solid rgb(218, 213, 213) ;
+    border-right: 1px solid rgb(218, 213, 213) ;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  .subcribeTitle{
+    font-weight: bold;
+    width: 90%;
+    display: flex;
+    border-bottom: 0.2px solid rgb(218, 213, 213);
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .subcribeplug{
+    margin-bottom: 10px;
+  }
+  .vedio{
+    border-radius: 5px;
+  }
+  .lastImg{
+    border-radius: 5px;
+    height: 30rem;
+    margin-top: 20px;
+    padding-bottom: 30px;
+  }
+  
+  
+  @media only screen and (max-width:600px) {
+    .fa {
+      width: 45px;
+    }
+  }

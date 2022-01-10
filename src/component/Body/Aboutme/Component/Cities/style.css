@@ -1,0 +1,55 @@
+.CitiesAboutUs{
+    background: #f6f6f6;
+    padding: 55px 0;
+}
+.citespara{
+    max-width: 550px;
+
+    color: #646262;
+    font-weight: 300;
+    margin-bottom: 18px;
+}
+
+.citiesAbout{
+
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.AboutImageCarousel{
+
+width: 95%;
+
+
+}
+.imgcity{
+    width: 300px;
+    margin: auto;
+    border-radius: 22px;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.1);
+    height: 200px;
+    background: 100% 100%;
+}
+.TExtCarouselAbout{
+    width: 300px;
+    margin: auto;
+}
+.TExtCarouselAbout h1{
+  font-size: 20px;
+    font-weight: 400;
+    color: #202120;
+    margin-top: 19px;
+    margin-bottom: 4px;
+}
+.TExtCarouselAbout p{
+  font-size: 15px;
+
+    width: 90%;
+
+    font-weight: 300;
+    color: #616261;
+    line-height: 18px;
+
+}

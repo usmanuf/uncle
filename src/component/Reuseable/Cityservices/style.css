@@ -1,0 +1,80 @@
+.CitiesTitle{
+    font-size: 33px;
+    font-weight: 600;
+
+}
+.HeadingCitie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 33px;
+    margin-bottom: 22px;
+}
+.wrappers {
+    position: relative;
+    perspective: 40em;
+    display: grid;
+    width: 250px;
+    margin: auto;
+    margin-bottom: 40px;
+    transform-style: preserve-3d;
+}
+
+
+
+
+.ImgCardservice{
+    position: relative;
+
+opacity: 1;
+    border-radius: 8px;
+    width: 100%;
+    height: 200px;
+
+transition: .3s;
+}
+.ImgCardservice:hover{
+    position: relative;
+
+opacity: .8;
+    border-radius: 8px;
+    width: 100%;
+    height: 200px;
+    box-shadow: 0 0 30px #ccc;
+
+}
+
+
+.text-card{
+
+    font-weight: 500;
+    color: var(--theme-color);
+    background-color: rgba(255,255,255,0.9);
+border-radius: 12px;
+    border: 1px solid var(--theme-color);
+
+    padding: 8px 18px;
+    font-size: 20px;
+    display: block;
+}
+
+.cardserviceCity {
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #06bf1a;
+    text-transform: uppercase;
+
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+
+    /*box-shadow: 0 10px 30px -3px rgba(0,0,0,.1);*/
+}
+.citesCArd:hover .text-card{
+background-color: var(--theme-color);
+    transition: .5s;
+    color: white;
+}

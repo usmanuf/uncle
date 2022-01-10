@@ -1,0 +1,22 @@
+.linkWhatsapp{
+background: white;
+    text-decoration: none;
+    color: black;
+
+    border: 2px solid var(--theme-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+    border-radius: 3px;
+    transition: .3s;
+}
+.linkWhatsapp:hover{
+    background: var(--theme-color);
+    color: white;
+}
+.textFeatureId{
+    padding: 10px 19px;
+    text-align: center;
+
+}

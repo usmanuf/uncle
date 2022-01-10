@@ -1,0 +1,440 @@
+
+svg{font-weight:bold;max-width:600px;height:100%;}
+
+
+@font-face {
+    font-family: Clip;
+    src: url("https://acupoftee.github.io/fonts/Clip.ttf");
+}
+
+/*body {*/
+/*    background-color: #141114;*/
+/*    background-image: linear-gradient(335deg, black 23px, transparent 23px),*/
+/*    linear-gradient(155deg, black 23px, transparent 23px),*/
+/*    linear-gradient(335deg, black 23px, transparent 23px),*/
+/*    linear-gradient(155deg, black 23px, transparent 23px);*/
+/*    background-size: 58px 58px;*/
+/*    background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;*/
+/*}*/
+
+.sign {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   text-align: center;
+    background-image: radial-gradient(
+            ellipse 50% 35% at 50% 50%,
+            #dbeed8,
+            transparent
+    );
+
+
+
+    font-family: "Clip";
+    text-transform: uppercase;
+    font-size: 73px;
+    color: #1faf05;
+    text-shadow: 0 0 0.6rem #343434, 0 0 1.5rem #888085,
+    -0.2rem 0.1rem 1rem #ffffff, 0.2rem 0.1rem 1rem #1faf05,
+    0 -0.5rem 2rem #1faf05, 0 0.5rem 3rem #1faf05;
+    animation: shine 2s forwards, flicker 3s infinite;
+}
+
+@keyframes blink {
+    0%,
+    22%,
+    36%,
+    75% {
+        color: #1faf05;
+        text-shadow: 0 0 0.6rem #bae2b2, 0 0 1.5rem #1faf05,
+        -0.2rem 0.1rem 1rem #ffffff, 0.2rem 0.1rem 1rem #1faf05,
+        0 -0.5rem 2rem #1faf05, 0 0.5rem 3rem #1faf05;
+    }
+    28%,
+    33% {
+        color: #343434;
+        text-shadow: none;
+    }
+    82%,
+    97% {
+        color: #343434;
+        text-shadow: none;
+    }
+}
+
+.flicker {
+    animation: shine 2s forwards, blink 3s 2s infinite;
+}
+
+.fast-flicker {
+    animation: shine 2s forwards, blink 10s 1s infinite;
+}
+
+@keyframes shine {
+    0% {
+        color: #6b1839;
+        text-shadow: none;
+    }
+    100% {
+        color: #111010;
+        text-shadow: 0 0 0.6rem #f0f0f0, 0 0 1.5rem #ffffff,
+        -0.2rem 0.1rem 1rem #ffffff, 0.2rem 0.1rem 1rem #ffffff,
+        0 -0.5rem 2rem #ffffff, 0 0.5rem 3rem #ffffff;
+    }
+}
+
+@keyframes flicker {
+    from {
+        opacity: 1;
+    }
+
+    4% {
+        opacity: 0.9;
+    }
+
+    6% {
+        opacity: 0.85;
+    }
+
+    8% {
+        opacity: 0.95;
+    }
+
+    10% {
+        opacity: 0.9;
+    }
+
+    11% {
+        opacity: 0.922;
+    }
+
+    12% {
+        opacity: 0.9;
+    }
+
+    14% {
+        opacity: 0.95;
+    }
+
+    16% {
+        opacity: 0.98;
+    }
+
+    17% {
+        opacity: 0.9;
+    }
+
+    19% {
+        opacity: 0.93;
+    }
+
+    20% {
+        opacity: 0.99;
+    }
+
+    24% {
+        opacity: 1;
+    }
+
+    26% {
+        opacity: 0.94;
+    }
+
+    28% {
+        opacity: 0.98;
+    }
+
+    37% {
+        opacity: 0.93;
+    }
+
+    38% {
+        opacity: 0.5;
+    }
+
+    39% {
+        opacity: 0.96;
+    }
+
+    42% {
+        opacity: 1;
+    }
+
+    44% {
+        opacity: 0.97;
+    }
+
+    46% {
+        opacity: 0.94;
+    }
+
+    56% {
+        opacity: 0.9;
+    }
+
+    58% {
+        opacity: 0.9;
+    }
+
+    60% {
+        opacity: 0.99;
+    }
+
+    68% {
+        opacity: 1;
+    }
+
+    70% {
+        opacity: 0.9;
+    }
+
+    72% {
+        opacity: 0.95;
+    }
+
+    93% {
+        opacity: 0.93;
+    }
+
+    95% {
+        opacity: 0.95;
+    }
+
+    97% {
+        opacity: 0.93;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+.whatsappBtn{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.hometoBack{
+    color: red;
+    margin-top: 12px;
+}
+
+.ThankOY{
+    height: 90vh;
+    display: grid;
+    place-items: center;
+    background-color: #faf7f7;
+    background-image: linear-gradient(335deg, #ffffff 23px, transparent 23px),
+    linear-gradient(155deg, #ffffff 23px, transparent 23px),
+    linear-gradient(335deg, #ffffff 23px, transparent 23px),
+    linear-gradient(155deg, #ffffff 23px, transparent 23px);
+    background-size: 58px 58px;
+    background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
+}
+.thankYou{
+display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /*box-shadow: 1px 3px 18px 12px rgb(0 0 0 / 12%);*/
+}
+.thankYou >.thankYou-headinG{
+    font-size: 60px;
+    font-family: opens,sans-serif;
+    font-weight: 600;
+
+
+}
+.thankYou > .thankYou-conTent{
+    margin: 30px 70px;
+    background-color: rgba(255,255,255,0.5);
+
+    padding: 12px;
+    box-shadow: 1px 3px 18px 12px rgb(0 0 0 / 8%);
+    border-radius: 8px;
+    text-align: center;
+}
+.thankYou-conTent >.thankYou-conTent-headinG{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 18px;
+}
+.thankYou-linK{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.thankYou-linK >.thankYou-linK1{
+    height: 60px!important;
+}
+@media only screen and (max-width:400px){
+    .thankYou{
+
+        text-align: center;
+        margin: 30px 20px 30px 20px ;
+    }
+    .thankYou >.thankYou-headinG{
+        font-size: 50px;
+        font-family: opens,sans-serif;
+        font-weight: 600;
+
+
+    }
+    .thankYou > .thankYou-conTent {
+        margin: 30px 0px;
+        text-align: center;
+    }
+    .thankYou-linK >.thankYou-linK1{
+        height: 42px!important;
+    }
+}
+@media only screen and (min-width: 400px) and (max-width:575px){
+    .thankYou{
+
+        text-align: center;
+        margin: 30px 20px 30px 20px ;
+    }
+    .thankYou >.thankYou-headinG{
+        font-size: 50px;
+        font-family: opens,sans-serif;
+        font-weight: 600;
+
+
+    }
+    .thankYou > .thankYou-conTent {
+        margin: 30px 0px;
+        text-align: center;
+    }
+    .thankYou-linK >.thankYou-linK1{
+        height: 42px!important;
+    }
+}
+@media only screen and (min-width: 575px) and (max-width:768px){
+    .thankYou{
+
+        text-align: center;
+        margin: 60px;
+    }
+    .thankYou >.thankYou-headinG{
+        font-size: 50px;
+        font-family: opens,sans-serif;
+        font-weight: 600;
+
+
+    }
+    .thankYou > .thankYou-conTent {
+        margin: 30px 10px;
+        text-align: center;
+    }
+    .thankYou-linK >.thankYou-linK1{
+        height: 44px!important;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width:992px){
+    .thankYou{
+
+        text-align: center;
+        margin: 60px;
+    }
+    .thankYou >.thankYou-headinG{
+        font-size: 50px;
+        font-family: opens,sans-serif;
+        font-weight: 600;
+
+
+    }
+    .thankYou > .thankYou-conTent {
+        margin: 30px 20px;
+        text-align: center;
+    }
+    .thankYou-linK >.thankYou-linK1{
+        height: 46px!important;
+    }
+}
+
+
+/*somw
+*/
+
+.big-btn{
+    padding: 10px 0px 11px 0px;
+    width: 215px;
+    margin-top:5px;
+}
+
+.big-btn i{
+    font-size: 65px;
+    margin-right: 0px !important;
+}
+.big-btn strong{
+    font-size: 25px;
+    text-shadow: 1px 2px 0px #34659B;
+    color: #fff;
+    line-height: 24px;
+}
+.big-btn .btn-text{
+    margin-top:6px;
+}
+
+.big-btn small{font-size: 75%;}
+
+.android-btn{
+
+    width: 240px;
+    padding: 13px 17px 13px 0px;
+    background-color: #000;
+    border-color: #000;
+
+}
+.android-btn:hover{
+    background-color: #272727;
+}
+
+.android-btn i{
+    font-size: 55px;
+}
+
+.android-btn .btn-text{
+    margin-top: 0px;
+}
+
+.android-btn strong{
+    font-size: 25px;
+    text-shadow: none;
+    color: #fff;
+    line-height: 24px;
+}
+
+.windows-btn{
+    background-color:#008A00;
+    width: 235px;
+    padding: 13px 5px 13px 10px;
+    border-color: #055805;
+}
+
+.windows-btn:hover{
+    background-color: #008A00;
+}
+.windows-btn .btn-text{
+    text-shadow: none;
+    font-size: 26px;
+    line-height: 25px;
+}
+@media only screen and (max-width:556px){
+.sign{
+    font-size: 43px;
+}
+    .thankYou{
+        margin-top: 80px;
+    }
+    .thankYou-conTent{
+        margin: 2px 0!important;
+    }
+}

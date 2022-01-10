@@ -1,0 +1,70 @@
+/*******************/
+/*     Contact     */
+/*******************/
+#aboutUs{
+
+    background: var(--bg-gray);
+}
+
+.About-container{
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.1);
+    padding: 16px;
+    border-radius: 20px;
+    background: #fff;
+    line-height: 19px;
+
+}
+.aboutHeader{
+    text-align: left;
+}
+.aboutHeader h1{
+   font-size: 25px;
+    margin-top: 12px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.aboutHeader p{
+   font-size: 15px;
+
+    font-weight: 400;
+    color: #545454;
+    margin-bottom: 5px;
+}
+.form-1 {
+    position: relative;
+    overflow: hidden;
+    padding-top: 8.5rem;
+    padding-bottom: 2.75rem;
+    text-align: center;
+}
+
+.form-1 .decoration-star {
+    position: absolute;
+    top: 100px;
+    left: -120px;
+    width: 200px;
+    opacity: 0.7;
+}
+
+.form-1 .decoration-star-2 {
+    position: absolute;
+    top: 500px;
+    right: -100px;
+    width: 200px;
+    opacity: 0.7;
+}
+
+.form-1 div[class*="col"] {
+    /* selects all elements which have classes starting with col */
+    /* needed so that the absolute positioned decoration stays behind */
+    position: relative;
+}
+
+.form-1 .image-container {
+   margin-bottom: 22px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
